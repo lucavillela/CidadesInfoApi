@@ -1,0 +1,90 @@
+body {
+    font-family: 'Flow Circular', cursive; 
+    
+    font-weight: 300;
+    background-color: #547980;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #45ada8;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+  }
+  
+  button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    
+  }
+
+  button img {
+    height: 25px;
+    
+  }
+
+  .searchContainer{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 4px;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #weather-icon {
+    width: 100px;
+    height: 100px;
+    fill: #ffffff;
+    display: none;
+  }
+
+  #pais{
+    font-size: 20px;
+  }
+
+  #populacao{
+    font-size: 20px;
+
+  }
+
+  #subContent{
+    display: flex;
+    gap: 20px;
+  }
+
+  #apiContent{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
